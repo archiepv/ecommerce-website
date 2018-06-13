@@ -1,0 +1,551 @@
+/*---------- CSS Document ----------*/
+body {
+  		font-size: 100%;
+			margin: 0;
+			padding: 0;
+			border: 0;
+			box-sizing: border-box;
+  		font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
+		 }
+
+.container-fluid {
+									background-color: rgba(106, 169, 193, 0.3);
+									background-image: url("/images/winter_scarves_bg.jpg");
+									background-repeat: repeat-y;
+									background-size: 105% auto;
+									background-position: top;
+									max-width: 100%;
+									height: auto;
+								 }
+
+/*---------- HEADER SECTION ----------*/
+
+.logo img {
+					 max-width: 30%;
+					 position: absolute;
+					 transform: translate(155%, 280%);
+			 		 z-index: 1;
+					}
+
+.header-design img {
+										max-width: 100%;
+										height: auto;
+										margin: 0;
+										z-index: -1;
+					 		 		 }
+
+ul.row {
+				transition: ease all 1s;
+				justify-content: flex-end;	
+				position: absolute;
+		 	 }	
+			
+	li[class^="col-"] {
+										 width: auto;
+										 height: auto;
+					 					 text-align: center;
+										 transition: ease all .5s;
+										}
+
+a {
+	 color: #FFFFFF;
+	}
+
+nav a:link {
+  					text-decoration: none;	 
+           }
+
+nav ul > li:nth-child(1) {
+													width: 10rem;
+										 			height: 10rem;
+													font-size: 3rem;
+													border-radius: 50%;
+													border: .6rem solid #EACA44;
+													background-color: #2C7198;
+													padding: 2.5rem 0 0 0;
+													transform: translate(1115%, -120%);
+													position: inherit;
+													z-index: 1;
+													clear: both;
+												 }
+
+nav ul > li:nth-child(2) {
+													width: 18rem;
+										 			height: 18rem;
+													font-size: 4.5rem;
+													border-radius: 50%;
+													border: .6rem solid #EACA44;
+													background-color: #2C7198;
+													padding: 6rem 0 0 0;
+													transform: translate(667%, -115%);
+													z-index: 1;
+												 }
+
+nav ul > li:nth-child(3) {
+													width: 14rem;
+										 			height: 14rem;
+													font-size: 3rem;
+													border-radius: 50%;
+													border: .7rem solid #EACA44;
+													background-color: #2C7198;
+													padding: 4.8rem 0 0 0;
+													transform: translate(850%, -90%);
+													z-index: 1;
+												 }
+
+nav ul > li:nth-child(4) {
+													width: 8rem;
+										 			height: 8rem;
+													border-radius: 50%;
+													border: .4rem solid #EACA44;
+													background-color: #2C7198;
+													transform: translate(1400%, -300%);
+													z-index: 1;
+												 }
+
+/*---------- ASIDE SECTION ----------*/
+
+form.row {
+					display: flex;
+					justify-content: flex-start;
+					margin: -4rem 2rem 0 0;
+					z-index: 1;
+					clear: both;
+				 }
+
+label {
+			 font-size: 1.2rem;
+			 color: #2C7198;
+			 height: 3rem;
+			}
+
+input[type="submit"] {
+  										padding: .25rem;
+											margin: 0 0 1rem 1rem;
+  										background-color: #3D7FCF;
+  										border: 1px solid #57A6C9;
+  										border-radius: 5px;
+  										font-size: 1rem;
+  										color: white;
+											width: 5rem;
+											height: 2rem;
+										 }
+
+/*---------- PRODUCTS SECTION ----------*/
+
+section.row {
+				display: flex;
+				margin-top: 2rem;
+				clear: both;
+			 }
+
+.line {
+			 background-color: #EACA44;
+			 margin: 3.8rem 0 0 0;
+			 border: 0;
+			 padding: 0;
+			 width: 900em;
+			 height: .6rem;
+			}
+
+h2 {
+  	padding: 1rem;
+  	font-size: 3.7rem;
+		font-weight: bold;
+  	text-align: left;
+  	color: #2C7198;
+		background-color: #EACA44;
+		width: 2em;
+		height: 6rem;
+	 }
+
+article.row {
+						 font-size: 1.5rem;
+						 margin-top: 5rem;
+						 text-align: center;
+		 		 		}
+	
+	section[class^="col-"] {
+										 			padding: .2em;
+										 			margin: 1rem;
+										 			width: 50rem;
+												 }
+
+article img {
+						 width: 20rem;
+						}
+
+h3 {
+		padding: .5rem;
+		margin: 2rem 0 2rem 0;
+		font-weight: bold;
+		color: #2C7198;
+		border: .3rem solid #EACA44;
+	 }
+
+p {
+	 margin-top: 2rem;
+	 padding: .5rem;
+	 color: #2C7198;
+	 font-weight: 100;
+	 opacity: 0.7;
+	}
+
+
+/*---------- MEDIA QUERIES ----------*/
+
+/*---------- screens between 1024 and 1800 pixels (inclusive) ----------*/
+
+@media screen and (min-width: 1024px) and (max-width: 1800px) {
+  .container-fluid {
+		border: 0;
+		margin: 0;
+		padding: 0;
+	}
+	
+/*---------- NAV HEADER SECTION ----------*/
+
+	ul.row {
+					transition: ease all 1s;
+					justify-content: flex-end;	
+					position: absolute;
+		 	 	 }	
+			
+		li[class^="col-"] {
+											 width: auto;
+										 	 height: auto;
+					 					 	 text-align: center;
+										 	 transition: ease all .5s;
+											}
+
+	a {
+	 	 color: #FFFFFF;
+		}
+
+	nav a:link {
+  						text-decoration: none;	 
+           	 }
+
+	nav ul > li:nth-child(1) {
+														width: 7rem;
+										 				height: 7rem;
+														font-size: 2rem;
+														border-radius: 50%;
+														border: .5rem solid #EACA44;
+														background-color: #2C7198;
+														padding: 1.8rem 0 0 0;
+														transform: translate(600%, -100%);
+														z-index: 1;
+														clear: both;
+												 	 }
+
+	nav ul > li:nth-child(2) {
+														width: 10rem;
+										 				height: 10rem;
+														font-size: 2.5rem;
+														border-radius: 50%;
+														border: .5rem solid #EACA44;
+														background-color: #2C7198;
+														padding: 3rem 0 0 0;
+														transform: translate(480%, -105%);
+														z-index: 1;
+														clear: both;
+												 	 }
+
+	nav ul > li:nth-child(3) {
+														width: 8rem;
+										 				height: 8rem;
+														font-size: 1.8rem;
+														border-radius: 50%;
+														border: .4rem solid #EACA44;
+														background-color: #2C7198;
+														padding: 2.7rem 0 0 0;
+														transform: translate(700%, -190%);
+														z-index: 1;
+														clear: both;
+												 	 }
+
+	nav ul > li:nth-child(4) {
+														width: 5em;
+										 				height: 5rem;
+														border-radius: 50%;
+														border: .2rem solid #EACA44;
+														background-color: #2C7198;
+														transform: translate(1100%, -710%);
+														z-index: 1;
+														clear: both;
+												 	 }
+
+/*---------- ASIDE SECTION ----------*/
+
+	form.row {
+						display: flex;
+						justify-content: flex-start;
+						margin: -2rem 2rem 0 0;
+						z-index: 1;
+				 	 }
+
+	label {
+			 	 font-size: 1.2rem;
+				 margin: 0 0 0 .5rem;
+			 	 color: #2C7198;
+			 	 height: 3rem;
+				}
+
+	input[type="submit"] {
+  											padding: .25rem;
+  											background-color: #3D7FCF;
+  											border: 1px solid #57A6C9;
+  											border-radius: 5px;
+  											font-size: .75rem;
+  											color: white;
+												width: 5rem;
+												height: 2rem;
+										 	 }
+
+/*---------- PRODUCT SECTION ----------*/	
+	
+		section.row {
+								 display: flex;
+								 margin-top: 1rem;
+			 					}
+
+	.line {
+				 background-color: #EACA44;
+			 	 margin: 1rem 0 0 0;
+			 	 border: 0;
+			 	 padding: 0;
+			 	 width: 900em;
+			 	 height: .5rem;
+				}
+
+	h2 {
+			margin: 0 0 0 .5rem;
+  		padding: .5rem;
+  		font-size: 2rem;
+  		text-align: left;
+  		color: #2C7198;
+			background-color: #EACA44;
+			height: 3rem;
+	 	 }
+
+	article.row {
+						 	 font-size: 1.5rem;
+						 	 margin: 5rem 6rem;
+						 	 text-align: center;
+		 		 			}
+	
+	section[class^="col-"] {
+													background-image: linear-gradient(to top, rgba(44, 113, 152, 0.0), rgba(44, 113, 152, 0.3) );
+							 						border: 4px solid #57A6C9;
+										 			padding: .2em;
+										 			margin: 1rem;
+										 			width: 50rem;
+												 }
+
+article img {
+						 width: 30rem;
+						 padding: 2rem 0 0 0;
+						}
+
+h3 {
+		padding: .5rem;
+		margin: 2rem;
+		font-size: 2rem;
+		font-weight: bold;
+		color: #2C7198;
+		border: .3rem solid #FFFFFF;
+	 }
+
+p {
+	 margin-top: 2rem;
+	 padding: .5rem;
+	 color: #2C7198;
+	 font-weight: 100;
+	 opacity: 0.7;
+	}
+}
+
+/*---------- screens less than or equal to 900 pixels (inclusive) ----------*/
+
+@media screen and (min-width: 300px) and (max-width: 900px) {
+  .container-fluid {
+		border: 0;
+		margin: 0;
+		padding: 0;
+  }
+	
+	.logo img {
+					 max-width: 50%;
+					 position: absolute;
+					 transform: translate(100%, 100%);
+			 		 z-index: 1;
+					}
+	/*---------- NAV HEADER SECTION ----------*/
+
+	ul.row {
+					transition: ease all 1s;
+					display: flex;
+					justify-content: center;	
+					position: absolute;
+		 	 	 }	
+			
+		li[class^="col-"] {
+					 					 	 text-align: center;
+										 	 transition: ease all .5s;
+											}
+
+	a {
+	 	 color: #FFFFFF;
+		}
+
+	nav a:link {
+  						text-decoration: none;	 
+           	 }
+
+	nav ul > li:nth-child(1) {
+														width: 4rem;
+										 				height: 4rem;
+														font-size: 1.2rem;
+														border-radius: 50%;
+														border: .3rem solid #EACA44;
+														background-color: #2C7198;
+														padding: 1rem 0 0 0;
+														transform: translate(-90%, -90%);
+														z-index: 1;
+														clear: both;
+												 	 }
+
+	nav ul > li:nth-child(2) {
+														width: 6rem;
+										 				height: 6rem;
+														font-size: 1.5rem;
+														border-radius: 50%;
+														border: .4rem solid #EACA44;
+														background-color: #2C7198;
+														padding: 2rem 0 0 0;
+														transform: translate(90%, -75%);
+														z-index: 1;
+														clear: both;
+												 	 }
+
+	nav ul > li:nth-child(3) {
+														width: 5rem;
+										 				height: 5rem;
+														font-size: 1rem;
+														border-radius: 50%;
+														border: .3rem solid #EACA44;
+														background-color: #2C7198;
+														padding: 1.8rem 0 0 0;
+														transform: translate(107%, -75%);
+														z-index: 1;
+														clear: both;
+												 	 }
+
+	nav ul > li:nth-child(4) {
+														width: 4em;
+										 				height: 4rem;
+														border-radius: 50%;
+														border: .2rem solid #EACA44;
+														background-color: #2C7198;
+														transform: translate(165%, -110%);
+														z-index: 1;
+														clear: both;
+												 	 }
+
+/*---------- ASIDE SECTION ----------*/
+
+	form.row {
+						display: flex;
+						justify-content: flex-start;
+						margin: 2rem 1rem;
+						z-index: 1;
+						clear: both;
+				 	 }
+
+	label {
+			 	 font-size: 1rem;
+			 	 color: #2C7198;
+				 width: 15rem;
+			 	 height: 3rem;
+				}
+
+	input[type="submit"] {
+  											padding: .5rem;
+												margin: .5rem;
+  											background-color: #3D7FCF;
+  											border: 1px solid #57A6C9;
+  											border-radius: 5px;
+  											font-size: .85rem;
+  											color: white;
+												width: 7rem;
+												height: 3rem;
+										 	 }
+	
+/*---------- PRODUCT SECTION ----------*/
+	
+	section.row {
+							 display: flex;
+							 margin-top: 1rem;
+							 clear: both;
+			 				}
+
+	.line {
+			 	 background-color: #EACA44;
+			 	 margin: 1rem 0 0 0;
+			 	 border: 0;
+			 	 padding: 0;
+			 	 width: 900em;
+			 	 height: .3rem;
+				}
+
+	h2 {
+  		padding: .2rem;
+			margin: 0 0 0 .5rem;
+  		font-size: 1.5rem;
+  		text-align: left;
+  		color: #2C7198;
+			background-color: #EACA44;
+			height: 2rem;
+	 	 }
+
+article.row {
+						 	 font-size: .6rem;
+						 	 margin: 1rem .5rem;
+						 	 text-align: center;
+		 		 			}
+	
+	section[class^="col-"] {
+													background-image: linear-gradient(to top, rgba(44, 113, 152, 0.0), rgba(44, 113, 152, 0.3) );
+							 						border: 4px solid #57A6C9;
+										 			padding: .2em;
+										 			margin: 1rem;
+										 			width: 17rem;
+												 }
+
+article img {
+						 width: 10rem;
+						 padding: 2rem 0 0 0;
+						}
+
+h3 {
+		padding: .5rem;
+		margin: 1rem;
+		font-size: 1.4rem;
+		font-weight: bold;
+		color: #2C7198;
+		border: .3rem solid #FFFFFF;
+	 }
+
+p {
+	 margin-top: .3rem;
+	 padding: .5rem;
+	 color: #2C7198;
+	 font-size: 1rem;
+	 font-weight: 100;
+	 opacity: 0.7;
+	}
+}
+
+
+
