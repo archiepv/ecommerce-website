@@ -10,7 +10,7 @@ body {
 
 .container-fluid {
 									background-color: rgba(106, 169, 193, 0.3);
-									background-image: url(/images/winter_scarves_bg.jpg);
+									background-image: url(./images/winter_scarves_bg.jpg);
 									background-repeat: repeat-y;
 									background-size: 105% auto;
 									background-position: top;
